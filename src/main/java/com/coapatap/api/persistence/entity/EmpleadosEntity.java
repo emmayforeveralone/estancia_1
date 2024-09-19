@@ -32,6 +32,9 @@ public class EmpleadosEntity {
     @Column(columnDefinition = "longtext")
     private String obervaciones;
 
+    @Column(name = "image", nullable = false, length = 100)
+    private String imagen;
+
     //LLAVES FORANEAS
     @Column(name = "area", nullable = false)
     private Integer idAreaFor;
